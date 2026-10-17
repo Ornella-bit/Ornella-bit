@@ -1,16 +1,16 @@
-## Hi there 👋
+# Bonjour, je suis Ashley 👋
 
-<!--
-**Ornella-bit/Ornella-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Étudiante en **informatique industrielle et maintenance** (UCAO, Cotonou). Je construis des projets autour de la maintenance, de l'automatisme, de l'IA et du développement web et mobile.
 
-Here are some ideas to get you started:
+## 🚀 Mes projets
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Projet | Description | Technologies | Liens |
+|---|---|---|---|
+| **Superviseur de réservoir** | Simulation d'un réservoir et d'une pompe, capteurs, alarmes, données CSV, version ESP32 | Python, MicroPython, Wokwi | [Code](https://github.com/Ornella-bit/superviseur-reservoir) · [Vidéo](LIEN_VIDEO) |
+| **Mini-GMAO** | Gestion des équipements, pannes, interventions et stock | Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Démo](https://ashley.pythonanywhere.com) |
+| **Maintenance prédictive** | Durée de vie restante de moteurs (NASA C-MAPSS) | pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Démo](https://maintenance-predictive.streamlit.app/) |
+| **Mini-GMAO Mobile** | Application Android de terrain connectée au mini-GMAO | Flutter, Dart | [Code](https://github.com/Ornella-bit/mini-gmao-mobile) · [APK](https://github.com/Ornella-bit/mini-gmao-mobile/releases/latest) |
+
+## 🛠️ Compétences
+
+Python · Flask · SQLite · pandas · scikit-learn · Streamlit · Flutter · Dart · MicroPython · ESP32 · Git · GitHub
