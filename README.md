@@ -6,7 +6,7 @@ My work connects industrial context with software development, machine learning,
 
 ## Professional profile
 
-I am passionate about creating practical digital tools that improve decision-making, optimize processes, and support real operational needs. My projects combine automation, artificial intelligence, data analysis, and application development to solve problems in industrial and applied environments.
+I am passionate about creating practical digital tools that improve decision-making, optimize processes, and support real operational needs. My projects combine automation, artificial intelligence, data analysis, and software development to solve meaningful problems in applied environments.
 
 ## Areas of expertise
 
@@ -74,6 +74,7 @@ I am interested in building intelligent, automated, and data-driven solutions th
 ## Contact
 
 - GitHub: [Ornella-bit](https://github.com/Ornella-bit)
+- Email: [mocashley.da@gmail.com](mailto:mocashley.da@gmail.com)
 - Open to internships, collaborations, and projects in automation, AI, data, and digital solutions.
 
 ---
@@ -86,7 +87,7 @@ Mon travail relie le contexte industriel au développement logiciel, à l’appr
 
 ## Profil professionnel
 
-Je suis passionnée par la création d’outils numériques pratiques qui améliorent la prise de décision, optimisent les processus et répondent à de vrais besoins opérationnels. Mes projets associent l’automatisation, l’intelligence artificielle, l’analyse de données et le développement d’applications pour résoudre des problèmes dans des environnements industriels et appliqués.
+Je suis passionnée par la création d’outils numériques pratiques qui améliorent la prise de décision, optimisent les processus et répondent à de vrais besoins opérationnels. Mes projets associent l’automatisation, l’intelligence artificielle, l’analyse de données et le développement logiciel pour résoudre des problèmes concrets dans des environnements appliqués.
 
 ## Domaines de compétence
 
@@ -154,4 +155,5 @@ Je souhaite développer des solutions intelligentes, automatisées et orientées
 ## Contact
 
 - GitHub : [Ornella-bit](https://github.com/Ornella-bit)
+- Email : [mocashley.da@gmail.com](mailto:mocashley.da@gmail.com)
 - Ouverte aux stages, collaborations et projets autour de l’automatisation, de l’IA, des données et des solutions numériques.
