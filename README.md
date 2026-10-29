@@ -1,141 +1,141 @@
 # Ashley Dossou-Agbotin 👋
 
-Industrial Computing and Maintenance student with a strong interest in solving real operational problems through automation, data, predictive analysis, and digital tools.
+I build automation, AI, and data-driven solutions for real-world operational challenges.
 
-I build practical solutions for industrial maintenance, process supervision, and data-driven decision support.
+My work connects industrial context with software development, machine learning, process supervision, and user-friendly web/mobile applications.
 
 ## Professional profile
 
-I am passionate about digital transformation in industrial environments, especially where maintenance, reliability, and process optimization meet technology. My work spans predictive maintenance, asset management, embedded systems, AI-powered data workflows, and user-friendly web/mobile applications.
+I am passionate about creating practical digital tools that improve decision-making, optimize processes, and support real operational needs. My projects combine automation, artificial intelligence, data analysis, and application development to solve problems in industrial and applied environments.
 
 ## Areas of expertise
 
-- Industrial maintenance and asset management
-- Process supervision and automation
-- Predictive maintenance and machine learning
-- Data analysis and AI for operational decisions
+- Automation and intelligent systems
+- AI and data-driven decision support
+- Process supervision and monitoring
 - Web and mobile application development
-- Data processing and source-grounded digital tools
+- Industrial systems and maintenance as an applied domain
+- Data processing and operational tooling
 
 ## Featured projects
 
-### Most representative work
+### Most representative
 
 | Project | Domain | Stack | Links |
 |---|---|---|---|
-| **Mini-GMAO** | Industrial maintenance | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Demo](https://ashley.pythonanywhere.com) |
-| **Maintenance prédictive** | Predictive maintenance | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Demo](https://maintenance-predictive.streamlit.app/) |
-| **Baobab** | Data & AI | Python, AI, data processing, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Demo](https://baobao-seve.streamlit.app/) |
-| **Kromamed** | Diagnostics & applied AI | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Demo](https://kromamed.onrender.com/) |
+| **Baobab** | AI & Data | Python, AI, data processing, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Demo](https://baobao-seve.streamlit.app/) |
+| **Kromamed** | Applied AI & Diagnostics | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Demo](https://kromamed.onrender.com/) |
+| **Mini-GMAO** | Industrial software | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Demo](https://ashley.pythonanywhere.com) |
+| **Maintenance prédictive** | Predictive analytics | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Demo](https://maintenance-predictive.streamlit.app/) |
 
 ## Projects by domain
 
-### 1) Industrial Maintenance & Asset Management
+### 1) AI, Data & Decision Support
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
-| **Mini-GMAO** | Management of interventions, equipment, and stock | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Demo](https://ashley.pythonanywhere.com) |
-| **Mini-GMAO Mobile** | Mobile application for field maintenance teams connected to the maintenance system | Flutter, Dart | [Code](https://github.com/Ornella-bit/mini-gmao-mobile) |
-| **Sakoche** | Mobile application project in Dart | Dart, Flutter | [Code](https://github.com/Ornella-bit/sakoche) |
+| **Baobab** | Data reliability platform with a production pipeline, AI copilot, and source-grounded responses | Python, AI, data processing, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Demo](https://baobao-seve.streamlit.app/) |
+| **Kromamed** | Colorimetric reading of urine test strips from smartphone photos using image-based analysis | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Demo](https://kromamed.onrender.com/) |
 
-### 2) Predictive Maintenance & Diagnostics
-
-| Project | Description | Stack | Links |
-|---|---|---|---|
-| **Maintenance prédictive** | Prediction of remaining useful life for engines using NASA C-MAPSS data | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Demo](https://maintenance-predictive.streamlit.app/) |
-| **Kromamed** | Colorimetric reading of urine test strips from smartphone photos | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Demo](https://kromamed.onrender.com/) |
-
-### 3) Data, AI & Decision Support
-
-| Project | Description | Stack | Links |
-|---|---|---|---|
-| **Baobab** | Data reliability platform with production pipeline, AI copilot, and source-grounded responses | Python, AI, data processing, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Demo](https://baobao-seve.streamlit.app/) |
-
-### 4) Process Supervision & Embedded Systems
+### 2) Automation & Process Supervision
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
 | **Superviseur de réservoir** | Simulated industrial process with tank, pump, sensors, alarms, and ESP32 integration | Python, MicroPython, ESP32, Wokwi | [Code](https://github.com/Ornella-bit/superviseur-reservoir) |
 
+### 3) Industrial Systems & Maintenance
+
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| **Mini-GMAO** | Maintenance operations, equipment tracking, interventions, and stock management | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Demo](https://ashley.pythonanywhere.com) |
+| **Maintenance prédictive** | RUL forecasting for engines based on NASA C-MAPSS data | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Demo](https://maintenance-predictive.streamlit.app/) |
+
+### 4) Web & Mobile Development
+
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| **Mini-GMAO Mobile** | Mobile application for field maintenance teams connected to the maintenance management system | Flutter, Dart | [Code](https://github.com/Ornella-bit/mini-gmao-mobile) |
+| **Sakoche** | Mobile application project built with Dart/Flutter | Dart, Flutter | [Code](https://github.com/Ornella-bit/sakoche) |
+
 ### 5) Learning & Practice
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
-| **Exercism** | Coding exercises and problem-solving practice | Various | [Code](https://github.com/Ornella-bit/Exercism) |
+| **Exercism** | Progress in coding exercises and algorithmic problem solving | Various | [Code](https://github.com/Ornella-bit/Exercism) |
 
 ## Technical stack
 
-Python · Flask · SQLite · pandas · scikit-learn · Streamlit · Flutter · Dart · JavaScript · HTML/CSS · MicroPython · ESP32 · SQL · Git · GitHub · AI / data workflows
+Python · Flask · SQLite · pandas · scikit-learn · Streamlit · Flutter · Dart · JavaScript · HTML/CSS · MicroPython · ESP32 · SQL · Git · GitHub · AI workflows · Data analysis
 
 ## Career focus
 
-Interested in industrial digitalization, predictive maintenance, process optimization, and AI-powered operational tools.
+I am interested in building intelligent, automated, and data-driven solutions that support industrial operations, digital transformation, and practical decision-making.
 
 ## Contact
 
 - GitHub: [Ornella-bit](https://github.com/Ornella-bit)
-- Open to internships, collaborations, and digital projects in maintenance, AI, and industrial systems.
+- Open to internships, collaborations, and projects in automation, AI, data, and digital solutions.
 
 ---
 
 # Ashley Dossou-Agbotin 👋
 
-Étudiante en informatique industrielle et maintenance, avec un intérêt fort pour la résolution de problèmes concrets grâce à l’automatisation, aux données, à l’analyse prédictive et aux outils numériques.
+Je conçois des solutions d’automatisation, d’IA et de données pour des défis opérationnels réels.
 
-Je conçois des solutions pratiques pour la maintenance industrielle, la supervision des processus et l’aide à la décision basée sur les données.
+Mon travail relie le contexte industriel au développement logiciel, à l’apprentissage automatique, à la supervision des processus et aux applications web/mobile orientées utilisateur.
 
 ## Profil professionnel
 
-Je suis passionnée par la transformation numérique des environnements industriels, notamment lorsque la maintenance, la fiabilité et l’optimisation des processus rencontrent la technologie. Mon travail couvre la maintenance prédictive, la gestion d’équipements, les systèmes embarqués, les flux de données pilotés par l’IA et les applications web/mobile orientées utilisateur.
+Je suis passionnée par la création d’outils numériques pratiques qui améliorent la prise de décision, optimisent les processus et répondent à de vrais besoins opérationnels. Mes projets associent l’automatisation, l’intelligence artificielle, l’analyse de données et le développement d’applications pour résoudre des problèmes dans des environnements industriels et appliqués.
 
 ## Domaines de compétence
 
-- Maintenance industrielle et gestion d’équipements
-- Supervision et automatisation des processus
-- Maintenance prédictive et machine learning
-- Analyse de données et IA pour la décision opérationnelle
+- Automatisation et systèmes intelligents
+- IA et aide à la décision basée sur les données
+- Supervision et monitoring des processus
 - Développement d’applications web et mobile
-- Traitement de données et outils numériques orientés sources
+- Systèmes industriels et maintenance comme domaine d’application
+- Traitement des données et outils opérationnels
 
 ## Projets phares
 
-### Travaux les plus représentatifs
+### Les plus représentatifs
 
 | Projet | Domaine | Stack | Liens |
 |---|---|---|---|
-| **Mini-GMAO** | Maintenance industrielle | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Démo](https://ashley.pythonanywhere.com) |
-| **Maintenance prédictive** | Maintenance prédictive | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Démo](https://maintenance-predictive.streamlit.app/) |
-| **Baobab** | Données & IA | Python, IA, traitement de données, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Démo](https://baobao-seve.streamlit.app/) |
-| **Kromamed** | Diagnostic & IA appliquée | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Démo](https://kromamed.onrender.com/) |
+| **Baobab** | IA & Données | Python, IA, traitement de données, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Démo](https://baobao-seve.streamlit.app/) |
+| **Kromamed** | IA appliquée & diagnostic | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Démo](https://kromamed.onrender.com/) |
+| **Mini-GMAO** | Logiciel industriel | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Démo](https://ashley.pythonanywhere.com) |
+| **Maintenance prédictive** | Analyse prédictive | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Démo](https://maintenance-predictive.streamlit.app/) |
 
 ## Projets par domaine
 
-### 1) Maintenance industrielle et gestion d’équipements
-
-| Projet | Description | Stack | Liens |
-|---|---|---|---|
-| **Mini-GMAO** | Gestion des interventions, des équipements et des stocks | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Démo](https://ashley.pythonanywhere.com) |
-| **Mini-GMAO Mobile** | Application mobile pour les équipes terrain connectée au système de maintenance | Flutter, Dart | [Code](https://github.com/Ornella-bit/mini-gmao-mobile) |
-| **Sakoche** | Projet d’application mobile en Dart | Dart, Flutter | [Code](https://github.com/Ornella-bit/sakoche) |
-
-### 2) Maintenance prédictive et diagnostic
-
-| Projet | Description | Stack | Liens |
-|---|---|---|---|
-| **Maintenance prédictive** | Prédiction de la durée de vie utile des moteurs à partir des données NASA C-MAPSS | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Démo](https://maintenance-predictive.streamlit.app/) |
-| **Kromamed** | Lecture colorimétrique de bandelettes urinaires à partir de photos prises avec un smartphone | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Démo](https://kromamed.onrender.com/) |
-
-### 3) Données, IA et aide à la décision
+### 1) IA, données et aide à la décision
 
 | Projet | Description | Stack | Liens |
 |---|---|---|---|
 | **Baobab** | Plateforme de fiabilité des données avec pipeline de production, copilote IA et réponses fondées sur les sources | Python, IA, traitement de données, Streamlit | [Code](https://github.com/Ornella-bit/baobab) · [Démo](https://baobao-seve.streamlit.app/) |
+| **Kromamed** | Lecture colorimétrique de bandelettes urinaires à partir de photos prises avec un smartphone | Python, Computer Vision, Streamlit | [Code](https://github.com/Ornella-bit/kromamed) · [Démo](https://kromamed.onrender.com/) |
 
-### 4) Supervision des processus et systèmes embarqués
+### 2) Automatisation et supervision des processus
 
 | Projet | Description | Stack | Liens |
 |---|---|---|---|
 | **Superviseur de réservoir** | Processus industriel simulé avec réservoir, pompe, capteurs, alarmes et intégration ESP32 | Python, MicroPython, ESP32, Wokwi | [Code](https://github.com/Ornella-bit/superviseur-reservoir) |
+
+### 3) Systèmes industriels et maintenance
+
+| Projet | Description | Stack | Liens |
+|---|---|---|---|
+| **Mini-GMAO** | Gestion des interventions, des équipements et des stocks | Python, Flask, SQLite | [Code](https://github.com/Ornella-bit/mini-gmao) · [Démo](https://ashley.pythonanywhere.com) |
+| **Maintenance prédictive** | Prédiction de la durée de vie utile des moteurs à partir des données NASA C-MAPSS | Python, pandas, scikit-learn, Streamlit | [Code](https://github.com/Ornella-bit/maintenance-predictive) · [Démo](https://maintenance-predictive.streamlit.app/) |
+
+### 4) Développement web et mobile
+
+| Projet | Description | Stack | Liens |
+|---|---|---|---|
+| **Mini-GMAO Mobile** | Application mobile pour les équipes terrain connectée au système de maintenance | Flutter, Dart | [Code](https://github.com/Ornella-bit/mini-gmao-mobile) |
+| **Sakoche** | Projet d’application mobile construit avec Dart/Flutter | Dart, Flutter | [Code](https://github.com/Ornella-bit/sakoche) |
 
 ### 5) Apprentissage et pratique
 
@@ -149,9 +149,9 @@ Python · Flask · SQLite · pandas · scikit-learn · Streamlit · Flutter · D
 
 ## Axes de carrière
 
-Intéressée par la numérisation industrielle, la maintenance prédictive, l’optimisation des processus et les outils opérationnels pilotés par l’IA.
+Je souhaite développer des solutions intelligentes, automatisées et orientées données pour soutenir les opérations industrielles, la transformation numérique et la prise de décision concrète.
 
 ## Contact
 
 - GitHub : [Ornella-bit](https://github.com/Ornella-bit)
-- Ouverte aux stages, collaborations et projets numériques autour de la maintenance, de l’IA et des systèmes industriels.
+- Ouverte aux stages, collaborations et projets autour de l’automatisation, de l’IA, des données et des solutions numériques.
