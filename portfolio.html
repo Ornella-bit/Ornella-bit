@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashley Dossou-Agbotin | Portfolio</title>
+    <style>
+      :root {
+        --bg: #f3f7fb;
+        --panel: #ffffff;
+        --ink: #152238;
+        --muted: #4c5f7a;
+        --line: #dfeaf5;
+        --primary: #0e5ea8;
+        --primary-soft: #eaf3ff;
+        --accent: #17a2b8;
+        --success: #1e7e34;
+        --shadow: 0 8px 28px rgba(18, 34, 53, 0.08);
+      }
+
+      * { box-sizing: border-box; }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+
+      .page {
+        max-width: 1100px;
+        margin: 32px auto;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        overflow: hidden;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #0b1d2d 0%, #1c446d 45%, #2a6cae 100%);
+        color: white;
+        padding: 40px 48px 28px;
+      }
+
+      .hero-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 3vw, 3rem);
+        line-height: 1.1;
+      }
+
+      .subtitle {
+        margin-top: 14px;
+        max-width: 760px;
+        font-size: 1.1rem;
+        color: rgba(255,255,255,0.9);
+      }
+
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .chip {
+        background: rgba(255,255,255,0.12);
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.88rem;
+        color: white;
+      }
+
+      .container {
+        padding: 30px 48px 40px;
+      }
+
+      .section {
+        margin-bottom: 28px;
+      }
+
+      .section h2 {
+        margin: 0 0 12px;
+        font-size: 1.35rem;
+        color: var(--ink);
+        border-bottom: 2px solid var(--line);
+        padding-bottom: 6px;
+      }
+
+      .lead {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        background: var(--primary-soft);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 18px 14px;
+      }
+
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 1.08rem;
+        color: var(--primary);
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .project {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+        background: #fff;
+      }
+
+      .project h3 {
+        margin: 0 0 8px;
+        color: var(--ink);
+        font-size: 1.05rem;
+      }
+
+      .project .tag {
+        display: inline-block;
+        background: #edf4ff;
+        color: var(--primary);
+        padding: 5px 8px;
+        border-radius: 8px;
+        font-size: 0.74rem;
+        margin-bottom: 8px;
+      }
+
+      .project p {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .links a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .links a:hover { text-decoration: underline; }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      th, td {
+        border-bottom: 1px solid var(--line);
+        padding: 12px 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: var(--primary-soft);
+        color: var(--primary);
+        font-size: 0.88rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+
+      td {
+        color: var(--ink);
+        font-size: 0.94rem;
+      }
+
+      .contact {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        padding-top: 6px;
+      }
+
+      .contact a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .contact a:hover { text-decoration: underline; }
+
+      .lang-block {
+        margin-top: 18px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+      }
+
+      @media (max-width: 780px) {
+        .page { margin: 0; border-radius: 0; }
+        .hero, .container { padding-left: 22px; padding-right: 22px; }
+        .grid-2, .projects { grid-template-columns: 1fr; }
+      }
+
+      @media print {
+        body {
+          background: white;
+        }
+
+        .page {
+          max-width: none;
+          margin: 0;
+          box-shadow: none;
+          border: none;
+          border-radius: 0;
+        }
+
+        .hero {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
+        .section {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-top">
+          <div>
+            <h1>Ashley Dossou-Agbotin</h1>
+            <div class="subtitle">
+              I build automation, AI, and data-driven solutions for real-world operational challenges.
+            </div>
+          </div>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Automation</span>
+          <span class="chip">AI</span>
+          <span class="chip">Data Analysis</span>
+          <span class="chip">Web &amp; Mobile</span>
+          <span class="chip">Industrial Systems</span>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="section">
+          <h2>Professional Profile</h2>
+          <p class="lead">
+            I am a student in Industrial Computing and Maintenance with a strong interest in
+            automation, artificial intelligence, data analysis, and software development. I build
+            practical digital solutions that improve decision-making, optimize processes, and solve
+            real-world operational problems.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Areas of Expertise</h2>
+          <div class="grid-2">
+            <div class="card">
+              <h3>Automation &amp; Intelligent Systems</h3>
+              <p>Process supervision, monitoring, industrial workflows, embedded system logic.</p>
+            </div>
+            <div class="card">
+              <h3>AI &amp; Data</h3>
+              <p>Machine learning, predictive analytics, decision support, and data processing.</p>
+            </div>
+            <div class="card">
+              <h3>Web &amp; Mobile Development</h3>
+              <p>Application design for user-facing tools and operational systems.</p>
+            </div>
+            <div class="card">
+              <h3>Industrial Context</h3>
+              <p>Maintenance, equipment management, and real operational problem solving.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Featured Projects</h2>
+          <div class="projects">
+            <article class="project">
+              <div class="tag">AI &amp; Data</div>
+              <h3>Baobab</h3>
+              <p>Data reliability platform with production pipeline, AI copilot, and source-grounded responses.</p>
+              <div class="links">
+                <a href="https://github.com/Ornella-bit/baobab" target="_blank">Code</a>
+                <a href="https://baobao-seve.streamlit.app/" target="_blank">Demo</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="tag">Applied AI</div>
+              <h3>Kromamed</h3>
+              <p>Colorimetric reading of urine test strips using image analysis from smartphone photos.</p>
+              <div class="links">
+                <a href="https://github.com/Ornella-bit/kromamed" target="_blank">Code</a>
+                <a href="https://kromamed.onrender.com/" target="_blank">Demo</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="tag">Industrial Software</div>
+              <h3>Mini-GMAO</h3>
+              <p>Maintenance operations, equipment tracking, interventions, and stock management.</p>
+              <div class="links">
+                <a href="https://github.com/Ornella-bit/mini-gmao" target="_blank">Code</a>
+                <a href="https://ashley.pythonanywhere.com" target="_blank">Demo</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="tag">Predictive Analytics</div>
+              <h3>Maintenance prédictive</h3>
+              <p>Predicting remaining useful life of engines using NASA C-MAPSS data.</p>
+              <div class="links">
+                <a href="https://github.com/Ornella-bit/maintenance-predictive" target="_blank">Code</a>
+                <a href="https://maintenance-predictive.streamlit.app/" target="_blank">Demo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Project Portfolio by Domain</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Domain</th>
+                <th>Project</th>
+                <th>Stack</th>
+                <th>Links</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AI &amp; Data</td>
+                <td>Baobab</td>
+                <td>Python, AI, data processing, Streamlit</td>
+                <td><a href="https://github.com/Ornella-bit/baobab">Code</a></td>
+              </tr>
+              <tr>
+                <td>Applied AI</td>
+                <td>Kromamed</td>
+                <td>Python, Computer Vision, Streamlit</td>
+                <td><a href="https://github.com/Ornella-bit/kromamed">Code</a></td>
+              </tr>
+              <tr>
+                <td>Automation &amp; Process</td>
+                <td>Superviseur de réservoir</td>
+                <td>Python, MicroPython, ESP32, Wokwi</td>
+                <td><a href="https://github.com/Ornella-bit/superviseur-reservoir">Code</a></td>
+              </tr>
+              <tr>
+                <td>Industrial Systems</td>
+                <td>Mini-GMAO</td>
+                <td>Python, Flask, SQLite</td>
+                <td><a href="https://github.com/Ornella-bit/mini-gmao">Code</a></td>
+              </tr>
+              <tr>
+                <td>Predictive Maintenance</td>
+                <td>Maintenance prédictive</td>
+                <td>Python, pandas, scikit-learn, Streamlit</td>
+                <td><a href="https://github.com/Ornella-bit/maintenance-predictive">Code</a></td>
+              </tr>
+              <tr>
+                <td>Mobile Development</td>
+                <td>Mini-GMAO Mobile</td>
+                <td>Flutter, Dart</td>
+                <td><a href="https://github.com/Ornella-bit/mini-gmao-mobile">Code</a></td>
+              </tr>
+              <tr>
+                <td>Mobile Development</td>
+                <td>Sakoche</td>
+                <td>Dart, Flutter</td>
+                <td><a href="https://github.com/Ornella-bit/sakoche">Code</a></td>
+              </tr>
+              <tr>
+                <td>Learning &amp; Practice</td>
+                <td>Exercism</td>
+                <td>Various</td>
+                <td><a href="https://github.com/Ornella-bit/Exercism">Code</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section">
+          <h2>Technical Stack</h2>
+          <p class="lead">
+            Python · Flask · SQLite · pandas · scikit-learn · Streamlit · Flutter · Dart · JavaScript · HTML/CSS · MicroPython · ESP32 · SQL · Git · GitHub · AI workflows · Data analysis
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Contact</h2>
+          <div class="contact">
+            <a href="https://github.com/Ornella-bit" target="_blank">GitHub</a>
+            <a href="mailto:mocashley.da@gmail.com">mocashley.da@gmail.com</a>
+          </div>
+        </section>
+
+        <div class="lang-block">
+          <section class="section">
+            <h2>Profil professionnel</h2>
+            <p class="lead">
+              Je conçois des solutions d’automatisation, d’IA et de données pour des défis opérationnels réels.
+              Mon travail relie le contexte industriel au développement logiciel, à l’apprentissage automatique,
+              à la supervision des processus et aux applications web/mobile orientées utilisateur.
+            </p>
+          </section>
+
+          <section class="section">
+            <h2>Domaines de compétence</h2>
+            <p class="lead">
+              Automatisation et systèmes intelligents · IA et aide à la décision · Supervision des processus ·
+              Développement web et mobile · Systèmes industriels et maintenance · Traitement des données et outils opérationnels.
+            </p>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
