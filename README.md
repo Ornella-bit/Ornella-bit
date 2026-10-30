@@ -74,7 +74,6 @@ I am interested in building intelligent, automated, and data-driven solutions th
 ## Contact
 
 - GitHub: [Ornella-bit](https://github.com/Ornella-bit)
-- Portfolio : [Portfolio-Ashley](https://github.com/Ornella-bit/Ornella-bit/blob/main/portfolio.html)
 - Email: [mocashley.da@gmail.com](mailto:mocashley.da@gmail.com)
 - Open to internships, collaborations, and projects in automation, AI, data, and digital solutions.
 
@@ -156,6 +155,5 @@ Je souhaite développer des solutions intelligentes, automatisées et orientées
 ## Contact
 
 - GitHub : [Ornella-bit](https://github.com/Ornella-bit)
-- Portfolio : [Portfolio-Ashley](https://github.com/Ornella-bit/Ornella-bit/blob/main/portfolio.html)
 - Email : [mocashley.da@gmail.com](mailto:mocashley.da@gmail.com)
 - Ouverte aux stages, collaborations et projets autour de l’automatisation, de l’IA, des données et des solutions numériques.
